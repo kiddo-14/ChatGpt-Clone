@@ -160,8 +160,8 @@ const ChatWindow = () => {
   };
 
   return (
-    <div className="w-3/4 flex flex-col">
-      <div className="flex-grow bg-white p-4 overflow-y-auto">
+    <div className="w-11/12 flex flex-col">
+      <div className="flex-grow mt-3 mr-3 bg-white p-2 overflow-y-auto">
         {activeChatId ? (
           messages.length > 0 ? (
             messages

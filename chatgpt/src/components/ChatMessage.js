@@ -8,7 +8,7 @@ const ChatMessage = ({ message, loading }) => {
     <div className={`mb-4 flex ${message.isUser==='User'? "justify-end" : "justify-start"}`}>
       {message.isUser!=='User' && (
         <div className=" w-6 h-8  flex mr-2">
-          <FontAwesomeIcon icon={faGlobe} className="m-auto" />
+          <FontAwesomeIcon icon={faGlobe} className="m-auto text-orange-500" />
         </div>
       )}
       <div
@@ -29,7 +29,7 @@ const ChatMessage = ({ message, loading }) => {
 
       {message.isUser==='User' && ( 
         <div className=" w-6 h-8  flex ml-2">
-          <FontAwesomeIcon icon={faUser} className="m-auto" />
+          <FontAwesomeIcon icon={faUser} className="m-auto text-blue-600" />
         </div>
       )}
     </div>

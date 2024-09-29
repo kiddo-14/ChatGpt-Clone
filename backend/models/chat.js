@@ -8,6 +8,10 @@ const Chat = new mongoose.Schema({
  createAt:{
   type:Date,
   default:Date.now()
+ },
+ isArchive:{
+  type:Boolean,
+  default:false
  }
 });
 
